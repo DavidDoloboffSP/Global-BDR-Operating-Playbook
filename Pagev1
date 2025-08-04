@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Business Development Operating Playbook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            color: #334155;
+        }
+        .container {
+            max-width: 1024px;
+        }
+        .header-bg {
+            background-color: #e2e8f0;
+        }
+        .section-title {
+            color: #1e293b;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+        }
+        .text-purple {
+            color: #9333ea;
+        }
+        .text-red {
+            color: #ef4444;
+        }
+        .text-orange {
+            color: #f97316;
+        }
+        .text-green {
+            color: #22c55e;
+        }
+        .text-blue {
+            color: #3b82f6;
+        }
+        .text-violet {
+            color: #a78bfa;
+        }
+        .text-pink {
+            color: #ec4899;
+        }
+        th, td {
+            text-align: left;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex justify-center py-12">
+    <div class="container mx-4 md:mx-auto space-y-12">
+
+        <!-- Header Section -->
+        <div class="bg-[#e2e8f0] p-8 rounded-2xl shadow-lg text-center">
+            <!-- Logo image updated -->
+            <img src="logo-simpro.jpg" alt="Simpro Logo" class="mx-auto mb-4 w-48 h-auto">
+            <h1 class="text-4xl font-bold section-title">Global Business Development Operating Playbook</h1>
+            <p class="text-lg text-gray-600 mt-2">Visualizing Our H1 2025 Momentum and H2 Strategic Roadmap for Pipeline Generation</p>
+        </div>
+
+        <!-- Operating Rhythm Section -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+            <h2 class="text-3xl font-bold section-title mb-2 text-center">Our Operating Rhythm: The Foundation</h2>
+            <p class="text-gray-600 text-center mb-8">Our success is built on a foundation of consistent execution and communication. This cadence is the heartbeat of our global business development organization, ensuring alignment and focus across teams.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="card p-6 text-center">
+                    <h3 class="text-2xl font-bold text-violet-600">Daily</h3>
+                    <p class="text-gray-500">Team Huddles</p>
+                </div>
+                <div class="card p-6 text-center">
+                    <h3 class="text-2xl font-bold text-pink-600">Weekly</h3>
+                    <p class="text-gray-500">Activity Tracking & Visual Management</p>
+                </div>
+                <div class="card p-6 text-center">
+                    <h3 class="text-2xl font-bold text-orange-600">Monthly</h3>
+                    <p class="text-gray-500">Performance Reviews</p>
+                </div>
+                <div class="card p-6 text-center">
+                    <h3 class="text-2xl font-bold text-green-600">Quarterly</h3>
+                    <p class="text-gray-500">Program Reviews</p>
+                </div>
+                <div class="col-span-1 md:col-span-2 card p-6 text-center">
+                    <h3 class="text-2xl font-bold text-blue-600">Annual</h3>
+                    <p class="text-gray-500">Planning & Kickoff</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Purpose Section -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg text-center">
+            <h2 class="text-2xl font-bold section-title mb-2">Purpose</h2>
+            <p class="text-gray-600">This document outlines the standard operating rhythm for the global business development organization at Simpro, ensuring consistent execution, communication, and performance management at all levels of the org. It ensures that the BDR leaders whose teams focus on identifying, qualifying potential leads, generating new opportunities, and collaborating with account executives have clear operational guidance to run their teams effectively in Simpro.</p>
+        </div>
+
+        <!-- Value Creation Levers Section -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+            <h2 class="text-3xl font-bold section-title mb-2 text-center">Value Creation Levers</h2>
+            <p class="text-gray-600 text-center mb-8">Our strategy is built on five core pillars. These levers outline the key activities and systems that drive our pipeline generation and commercial success.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Lever 1: Performance & Data -->
+                <div class="card p-6 space-y-4">
+                    <h3 class="text-2xl font-bold text-blue-800">1. Performance & Data</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><span class="font-semibold">KPI Tracking:</span> Daily monitoring of plan vs. actuals for MQLs, call and email activities, meeting bookings, conversion rates, and pipeline creation via both Inbound and Outbound motions.</li>
+                        <li><span class="font-semibold">Stack Rankings:</span> Monthly and quarterly rankings on BDR performance to drive accountability and recognize success.</li>
+                        <li><span class="font-semibold">Active Slack Channels:</span> Celebrate every SQL for instant recognition of good work to keep morale high and encourage performance.</li>
+                    </ul>
+                </div>
+                
+                <!-- Lever 2: Systems & Tools -->
+                <div class="card p-6 space-y-4">
+                    <h3 class="text-2xl font-bold text-blue-800">2. Systems & Tools</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><span class="font-semibold">CRM Hygiene:</span> Consistent and accurate updates in the CRM on Leads and Opportunities are mandatory for reliable forecasting and handoff to sales.</li>
+                        <li><span class="font-semibold">Sales Engagement:</span> Utilize SE tools like Hubspot, Nooks, Sendoso, and Sakari in conjunction with SFDC to drive prospect engagement and create meetings.</li>
+                        <li><span class="font-semibold">AI Support:</span> Use AI for persona research and assisted messaging to accelerate outbound.</li>
+                    </ul>
+                </div>
+
+                <!-- Lever 3: Talent & Enablement -->
+                <div class="card p-6 space-y-4">
+                    <h3 class="text-2xl font-bold text-blue-800">3. Talent & Enablement</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><span class="font-semibold">Coaching & Development:</span> Structured one-on-one sessions and call coaching to build skills and support career progression.</li>
+                        <li><span class="font-semibold">Recruiting & Onboarding:</span> Maintain a high bar for talent, ensuring all new hires have our ideal BDR traits of Curiosity, Enthusiasm, and Grit. Ramp new hires effectively with product, industry, and on-the-job training.</li>
+                        <li><span class="font-semibold">Continual Training:</span> Regular enablement sessions on outbound skills, AI augmentation, product, and contracting workflows to effectively communicate Simpro’s value.</li>
+                    </ul>
+                </div>
+
+                <!-- Lever 4: Go-to-Market Execution (BDR-Aligned) -->
+                <div class="card p-6 space-y-4">
+                    <h3 class="text-2xl font-bold text-blue-800">4. Go-to-Market Execution (BDR-Aligned)</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><span class="font-semibold">Lead Management & Conversion:</span> Enforce SLAs for MQL and MQA follow-up and track conversion rates to optimize workflows.</li>
+                        <li><span class="font-semibold">AE & Marketing Alignment:</span> Drive territory-level alignment with Account Executives and provide structured feedback to Marketing on lead quality and campaigns.</li>
+                        <li><span class="font-semibold">Outbound Execution:</span> Partner with the OBCOE to launch targeted campaigns and operationalize account prioritization frameworks.</li>
+                    </ul>
+                </div>
+
+                <!-- Lever 5: Continuous Improvement (BDR-Aligned) -->
+                <div class="card p-6 space-y-4">
+                    <h3 class="text-2xl font-bold text-blue-800">5. Continuous Improvement (BDR-Aligned)</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><span class="font-semibold">Performance Reviews:</span> Conduct monthly retros and structured campaign reviews to analyze performance, identify blockers, and refine strategy.</li>
+                        <li><span class="font-semibold">Playbook & Process Refinement:</span> Maintain and iterate on qualification frameworks and playbooks based on real-time feedback and new tactics.</li>
+                        <li><span class="font-semibold">Coaching & Learning:</span> Implement regular call reviews, peer coaching, and deal huddles to drive skill development and share best practices.</li>
+                        <li><span class="font-semibold">Enablement Feedback Loop:</span> Serve as frontline sensors to capture rep feedback on tooling, content, and enablement effectiveness.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cadence Overview Section -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+            <h2 class="text-3xl font-bold section-title mb-8 text-center">Cadence Overview</h2>
+            
+            <!-- Daily Cadence -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-bold text-violet-600 mb-4">Daily Cadence</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white rounded-lg shadow">
+                        <thead>
+                            <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                                <th class="py-3 px-6 text-left">Activity</th>
+                                <th class="py-3 px-6 text-left">Owner</th>
+                                <th class="py-3 px-6 text-left">Audience</th>
+                                <th class="py-3 px-6 text-left">Purpose</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-700 text-sm font-light">
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left whitespace-nowrap">Daily Team Huddles</td>
+                                <td class="py-3 px-6 text-left">Regional BDR Leaders</td>
+                                <td class="py-3 px-6 text-left">Regional BDRs</td>
+                                <td class="py-3 px-6 text-left">Meeting forecasting, progress updates, outbound call icebreaking, and daily digest of what went right/wrong.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Weekly Cadence -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-bold text-pink-600 mb-4">Weekly Cadence</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white rounded-lg shadow">
+                        <thead>
+                            <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                                <th class="py-3 px-6 text-left">Activity</th>
+                                <th class="py-3 px-6 text-left">Owner</th>
+                                <th class="py-3 px-6 text-left">Audience</th>
+                                <th class="py-3 px-6 text-left">Purpose</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-700 text-sm font-light">
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left whitespace-nowrap">Activity Tracking & Visual Management</td>
+                                <td class="py-3 px-6 text-left">VP BDR</td>
+                                <td class="py-3 px-6 text-left">Regional BDR Leaders</td>
+                                <td class="py-3 px-6 text-left">Monitor lead generation, call/email volume, meeting bookings, and plan vs. actual results for both Inbound and Outbound motions.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Monthly Cadence -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-bold text-orange-600 mb-4">Monthly Cadence</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white rounded-lg shadow">
+                        <thead>
+                            <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                                <th class="py-3 px-6 text-left">Activity</th>
+                                <th class="py-3 px-6 text-left">Owner</th>
+                                <th class="py-3 px-6 text-left">Audience</th>
+                                <th class="py-3 px-6 text-left">Purpose</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-700 text-sm font-light">
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left whitespace-nowrap">Performance Reviews</td>
+                                <td class="py-3 px-6 text-left">VP BDR</td>
+                                <td class="py-3 px-6 text-left">All BDR Leaders</td>
+                                <td class="py-3 px-6 text-left">Present progress against goals, recognize top performers, and refine processes and campaigns.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Quarterly Cadence -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-bold text-green-600 mb-4">Quarterly Cadence</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white rounded-lg shadow">
+                        <thead>
+                            <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                                <th class="py-3 px-6 text-left">Activity</th>
+                                <th class="py-3 px-6 text-left">Owner</th>
+                                <th class="py-3 px-6 text-left">Audience</th>
+                                <th class="py-3 px-6 text-left">Purpose</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-700 text-sm font-light">
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left whitespace-nowrap">Program Reviews</td>
+                                <td class="py-3 px-6 text-left">VP BDR</td>
+                                <td class="py-3 px-6 text-left">GTM Leadership</td>
+                                <td class="py-3 px-6 text-left">Evaluate GTM and pipeline generation strategies to plan for the next quarter.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <!-- Annual Cadence -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-bold text-blue-600 mb-4">Annual Cadence</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white rounded-lg shadow">
+                        <thead>
+                            <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                                <th class="py-3 px-6 text-left">Activity</th>
+                                <th class="py-3 px-6 text-left">Owner</th>
+                                <th class="py-3 px-6 text-left">Audience</th>
+                                <th class="py-3 px-6 text-left">Purpose</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-700 text-sm font-light">
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left whitespace-nowrap">Annual Planning & Kickoff</td>
+                                <td class="py-3 px-6 text-left">VP BDR, Regional BDR Leaders</td>
+                                <td class="py-3 px-6 text-left">CRO, RevOps, GTM Leadership, BDR Teams</td>
+                                <td class="py-3 px-6 text-left">Execute capacity planning, role and territory design, and strategic objectives before launching the new fiscal year.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
